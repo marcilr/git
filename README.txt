@@ -21,6 +21,14 @@ git/
   git@github.com:marcilr/git.git
   https://github.com/marcilr/git.git
 
+git.txt
+  Git Distributed revision control system (DVCS)
+  https://en.wikipedia.org/wiki/Distributed_version_control
+  https://git-scm.com/
+
+pdf/
+  Portable Document Format files
+
 resync/
   Python script to automate the check of github hierarchical 
   directories.  The github directories are named with 
