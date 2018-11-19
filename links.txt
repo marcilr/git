@@ -1,6 +1,6 @@
 links.txt
 Created Mon November 19, 2018
-by Raymond E. Marcil <marcilr@gmail.com>
+By Raymond E. Marcil <ray.marcil@alaska.gov>
 
 
 Git related links
@@ -8,4 +8,35 @@ Git related links
 
 Links
 =====
+Get started with Git from the command line
+09/09/2018
+https://docs.microsoft.com/en-us/azure/devops/repos/git/share-your-code-in-git-cmdline?view=vsts
 
+Git Credential Manager for Windows v1.16.1
+https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/tag/v1.16.1
+
+Git Distributed revision control system (DVCS)
+https://en.wikipedia.org/wiki/Distributed_version_control
+https://git-scm.com/
+
+Git for Windows
+https://gitforwindows.org/
+https://git-scm.com/download/win
+
+Git for Windows v2.19.1 Release Notes
+Latest update: Oct 5th 2018
+file:///C:/Program%20Files/Git/ReleaseNotes.html
+
+Git LFS v2.4.2
+https://github.com/git-lfs/git-lfs/releases/tag/v2.4.2
+
+Pro Git book 2nd Edition (2014)
+https://git-scm.com/book/en/v2
+
+Use Git Credential Managers to Authenticate to Azure Repos
+09/09/2018
+https://docs.microsoft.com/en-us/azure/devops/repos/git/set-up-credential-managers?view=vsts
+
+Get started with Git from the command line
+09/09/2018
+https://docs.microsoft.com/en-us/azure/devops/repos/git/share-your-code-in-git-cmdline?view=vsts
