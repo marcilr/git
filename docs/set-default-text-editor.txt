@@ -4,3 +4,16 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Set default text editor for git
+
+
+To set the default text editor that git uses:
+  git config core.editor notepad
+
+The above sets the default text editor to notepad.
+--stackoverflow.com/questions/10564
+
+
+Links
+=====
+How can I set up an editor to work with Git on Windows?
+https://stackoverflow.com/questions/10564/how-can-i-set-up-an-editor-to-work-with-git-on-windows
