@@ -6,5 +6,6 @@
 #
 .gitignore
 dev/
+dnr/
 projects/
 resync/
