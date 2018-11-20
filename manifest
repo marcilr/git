@@ -29,6 +29,8 @@
 # Source                                           Target
 # -------------------------------------------------------
 https://github.com/marcilr/resync.git            resync
+https://github.com/marcilr/projects.git          projects
 https://github.com/marcilr/dev.git               dev
+
 
 
