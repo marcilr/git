@@ -28,12 +28,23 @@
 # -------------------------------------------------------
 # Source                                           Target
 # -------------------------------------------------------
-https://github.com/marcilr/dev.git               dev
-https://github.com/marcilr/dnr.git               dnr
-https://github.com/marcilr/gnu.git               gnu
-https://github.com/marcilr/net.git               net
-https://github.com/marcilr/os.git                os
-https://github.com/marcilr/projects.git          projects
-https://github.com/marcilr/putty.git             putty
-https://github.com/marcilr/resync.git            resync
-https://github.com/marcilr/x11.git               x11
+#https://github.com/marcilr/dev.git               dev
+#https://github.com/marcilr/dnr.git               dnr
+#https://github.com/marcilr/gnu.git               gnu
+#https://github.com/marcilr/net.git               net
+#https://github.com/marcilr/os.git                os
+#https://github.com/marcilr/projects.git          projects
+#https://github.com/marcilr/putty.git             putty
+#https://github.com/marcilr/resync.git            resync
+#https://github.com/marcilr/x11.git               x11
+
+ssh://git@github.com/marcilr/dev.git             dev
+ssh://git@github.com/marcilr/dnr.git             dnr
+ssh://git@github.com/marcilr/gnu.git             gnu
+ssh://git@github.com/marcilr/net.git             net
+ssh://git@github.com/marcilr/os.git              os
+ssh://git@github.com/marcilr/projects.git        projects
+ssh://git@github.com/marcilr/putty.git           putty
+ssh://git@github.com/marcilr/resync.git          resync
+ssh://git@github.com/marcilr/x11.git             x11
+
