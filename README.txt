@@ -1,20 +1,22 @@
-README.txt
+README
 Created Mon November 19, 2018
-by Raymond E. Marcil <ray.marcil@alaska.gov>
+by Raymond E. Marcil <marcilr@gmail.com>
+
 
 Clone GitHub base repo (Mon November 19, 2018):
+  $ git clone https://github.com/marcilr/git.git
+  Cloning into 'git'...
+  warning: You appear to have cloned an empty repository.
 
-$ git clone https://github.com/marcilr/git.git
-Cloning into 'git'...
-warning: You appear to have cloned an empty repository.
-
-remarcil@DNRATWIRM211520 MINGW64 ~
-$
-
+  remarcil@DNRATWIRM211520 MINGW64 ~
+  $
 
 
 Filelist
 ========
+00TODO
+  Items todo
+
 git/
   Git repo or repos at:
   Initial creating/checkout on Mon November 19, 2018
