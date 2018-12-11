@@ -28,6 +28,9 @@ git.txt
   https://en.wikipedia.org/wiki/Distributed_version_control
   https://git-scm.com/
 
+manifest
+  Manifest file for resync application
+
 pdf/
   Portable Document Format files
 
