@@ -5,11 +5,15 @@
 # Files for git to ignore.
 #
 .gitignore
+books/
 dev/
 dnr/
 gnu/
 os/
 net/
 projects/
+putty/
 resync/
+revision-control/
 x11/
+
