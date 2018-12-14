@@ -16,6 +16,12 @@ The above sets the default text editor to notepad.
 
 
 
+> git config --global core.editor "C:\Users\remarcil\Documents\MobaXterm\slash\bin\nano.exe"
+--How to set default editor when using Git in Cygwin?
+  https://stackoverflow.com/questions/27023402/how-to-set-default-editor-when-using-git-in-cygwin
+
+
+
 Links
 =====
 How can I set up an editor to work with Git on Windows?
