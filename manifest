@@ -25,15 +25,30 @@
 # ================================================================== #
 
 
+
 # -----------------------------------------------------
 # Source                                         Target
 # -----------------------------------------------------
 ssh://git@github.com/marcilr/00TODO.git          00TODO
 ssh://git@github.com/marcilr/books.git           books
 ssh://git@github.com/marcilr/dev.git             dev
-ssh://git@github.com/marcilr/dnr.git             dnr
+#ssh://git@github.com/marcilr/dnr.git             dnr
+
+#
+# Created dnr repo 12/18/2018 but unable
+# to checkout.   Name conflict?
+#
+#ssh://dnratwtfs:22/tfs/Sandboxes/_git/dnr        dnr
+
 ssh://git@github.com/marcilr/gnu.git             gnu
 ssh://git@github.com/marcilr/hosts.git           git
+
+#
+# Information Resource Management
+# Using since unable to create dnr repo.
+#
+ssh://dnratwtfs:22/tfs/Sandboxes/_git/irm        irm
+
 ssh://git@github.com/marcilr/net.git             net
 ssh://git@github.com/marcilr/os.git              os
 ssh://git@github.com/marcilr/projects.git        projects
