@@ -28,6 +28,13 @@ git.txt
   https://en.wikipedia.org/wiki/Distributed_version_control
   https://git-scm.com/
 
+irm/
+  Information Resource Management repo
+  Unable to checkout dnr/ repo that I created
+  on 12/18/2018 at dnratwtfs:22/tfs/Sandboxes/_git/dnr
+  Hence, using IRM instead.  Need container for Alaska 
+  State DNR gir repos.
+
 manifest
   Manifest file for resync application
 
