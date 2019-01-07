@@ -35,6 +35,7 @@ ssh://git@github.com/marcilr/dev.git             dev
 ssh://dnratwtfs:22/tfs/Sandboxes/_git/dnr        dnr
 ssh://git@github.com/marcilr/gnu.git             gnu
 ssh://git@github.com/marcilr/hosts.git           git
+ssh://git@github.com/marcilr/lang.git            lang
 ssh://git@github.com/marcilr/net.git             net
 ssh://git@github.com/marcilr/os.git              os
 ssh://git@github.com/marcilr/projects.git        projects
