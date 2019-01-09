@@ -1,0 +1,64 @@
+proxies.txt
+Created Wed Jan  9 08:30:35 AST 2019
+by Raymond E. Marcil <ray.marcil@alaska.gov>
+
+
+Wed Jan  9 08:30:35 AST 2019
+============================
+Per request disabled the ACMPSurvey proxy on webprod
+(Aaron Woehler advised webdev or webprod) I had created
+for Belinda Jerger yesterday.
+
+Alaska Coastal Mapping Priority Survey at:
+  https://dnratwnettest/ACMPSurvey/
+
+Created this proxy on dnratwwebprod.dnr.state.ak.us (204.89.222.126) in
+  /etc/nginx/ssl.d/dotnetLocations.conf
+
+Had added proxy to end of dotnetLocations.conf with:
+  location /ACMPSurvey {
+      proxy_pass https://dotnetsecure/ACMPSurvey;
+  }
+
+In hindsite thought on dnratwwebprod.soa.alaska.gov (204.89.222.126),
+in /etc/nginx/ssl.d/dotnetLocations.conf I had used:
+  location /ACMPSurvey {
+      proxy_pass https://dnratwnettest.soa.alaska.gov/ACMPSurvey; 
+  }
+
+
+Then reload nginx configuration for changes to take affect:
+  # nginx -s reload
+
+
+
+Similar proxies pointed out by Aaron:
+  location /ucc/search {
+      modsecurity_rules 'SecRuleRemoveById 920420 949110 980130 953120 959100 980140';
+          proxy_pass https://dotnetsecure/ucc/search;
+  }
+
+
+
+Possible since /etc/nginx/conf.d/upstream.conf has mapping for dotnetsecure:
+       upstream dotnetsecure {
+                server dnratwnetprod.soa.alaska.gov:443;
+                keepalive 128;
+        }
+
+     The https mapping use the 'dotnetsecure'.
+
+
+i.e. Don't need modsecurity_rules line then update the other two as needed.
+
+
+Finally he resultant accessible URL was:
+  https://dnr.alaska.gov/ACMPSurvey/
+
+
+
+Links
+=====
+UsageUtilities
+by Peter Parker that I had created a proxy for:
+http://int.dnr.alaska.gov/svntom/trunk/gis/projects/UsageUtilities/
