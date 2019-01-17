@@ -32,7 +32,8 @@
 ssh://git@github.com/marcilr/00TODO.git          00TODO
 ssh://git@github.com/marcilr/books.git           books
 ssh://git@github.com/marcilr/dev.git             dev
-ssh://dnratwtfs:22/tfs/Sandboxes/_git/dnr        dnr
+#ssh://dnratwtfs:22/tfs/Sandboxes/_git/dnr        dnr
+ssh://dnratwtfsp:22/Sandboxes/_git/dnr           dnr
 ssh://git@github.com/marcilr/fanless.git         fanless
 ssh://git@github.com/marcilr/gnu.git             gnu
 ssh://git@github.com/marcilr/hosts.git           git
