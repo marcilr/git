@@ -37,6 +37,7 @@ ssh://dnratwtfsp:22/Sandboxes/_git/dnr           dnr
 ssh://git@github.com/marcilr/fanless.git         fanless
 ssh://git@github.com/marcilr/gnu.git             gnu
 ssh://git@github.com/marcilr/hosts.git           git
+ssh://git@github.com/marcilr/hardware.git        hardware
 ssh://git@github.com/marcilr/lang.git            lang
 ssh://git@github.com/marcilr/net.git             net
 ssh://git@github.com/marcilr/os.git              os
