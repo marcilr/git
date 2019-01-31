@@ -12,6 +12,7 @@ dnr/
 fanless/
 git/
 gnu/
+hardware/
 hosts/
 lang/
 os/
@@ -21,6 +22,7 @@ putty/
 resync/
 revision-control/
 rmarcil/
+security/
 virtualization/
 x11/
 
