@@ -3,11 +3,112 @@ Created Thu Mar 21 07:43:12 AKDT 2019
 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-git repo checkout
+git repo checkout (git and dnr repos)
 
 
-For the penguin or windows:
+Windows checkout of git repo to desktop:
+    C:\Users\remarcil\Desktop>git clone ssh://git@github.com/marcilr/git.git git
+    Cloning into 'git'...
+    remote: Enumerating objects: 199, done.
+    remote: Counting objects: 100% (199/199), done.
+    remote: Compressing objects: 100% (138/138), done.
+    remote: Total 199 (delta 102), reused 155 (delta 58), pack-reused 0
+    Receiving objects: 100% (199/199), 6.95 MiB | 21.43 MiB/s, done.
+    Resolving deltas: 100% (102/102), done.
 
-$ git clone ssh://git@github.com/marcilr/git.git git
+    C:\Users\remarcil\Desktop>
 
+List files in git repo:
+    C:\Users\remarcil\Desktop>dir git
+    Volume in drive C has no label.
+    Volume Serial Number is 1AD3-9A60
 
+    Directory of C:\Users\remarcil\Desktop\git
+
+    03/21/2019  07:48 AM    <DIR>          .
+    03/21/2019  07:48 AM    <DIR>          ..
+    03/21/2019  07:42 AM               310 .gitignore
+    03/21/2019  07:44 AM    <DIR>          docs
+    03/21/2019  07:42 AM               290 git.txt
+    03/21/2019  07:42 AM             1,460 links.txt
+    03/21/2019  07:42 AM             2,341 manifest
+    03/21/2019  07:42 AM    <DIR>          pdf
+    03/21/2019  07:42 AM             1,536 README
+                   5 File(s)          5,937 bytes
+                   5 Dir(s)  250,898,919,424 bytes free
+
+    C:\Users\remarcil\Desktop>
+
+Checkout of dnr (Alaska State Department of Natural Resources) repo:
+    C:\Users\remarcil\Desktop> cd git
+    C:\Users\remarcil\Desktop\git>git clone ssh://dnratwtfsp:22/Sandboxes/_git/dnr dnr
+    Cloning into 'dnr'...
+    remote:
+    remote:                    fTfs
+    remote:                  fSSSSSSSs
+    remote:                fSSSSSSSSSS
+    remote: TSSf         fSSSSSSSSSSSS
+    remote: SSSSSF     fSSSSSSST SSSSS
+    remote: SSfSSSSSsfSSSSSSSt   SSSSS
+    remote: SS  tSSSSSSSSSs      SSSSS
+    remote: SS   fSSSSSSST       SSSSS
+    remote: SS fSSSSSFSSSSSSf    SSSSS
+    remote: SSSSSST    FSSSSSSFt SSSSS
+    remote: SSSSt        FSSSSSSSSSSSS
+    remote:                FSSSSSSSSSS
+    remote:                  FSSSSSSs
+    remote:                    FSFs    (TM)
+    remote:
+    remote:  Microsoft (R) Visual Studio (R) Team Foundation Server
+    remote:
+    remote: Found 296 objects to send. (79 ms)
+    Receiving objects: 100% (296/296), 54.43 KiB | 3.40 MiB/s, done.
+    Resolving deltas: 100% (175/175), done.
+
+    C:\Users\remarcil\Desktop\git>
+
+List files, with dnr/ repo, in git repo:
+    C:\Users\remarcil\Desktop>cd git
+
+    C:\Users\remarcil\Desktop\git>dir
+     Volume in drive C has no label.
+     Volume Serial Number is 1AD3-9A60
+
+     Directory of C:\Users\remarcil\Desktop\git
+
+    03/21/2019  07:48 AM    <DIR>          .
+    03/21/2019  07:48 AM    <DIR>          ..
+    03/21/2019  07:42 AM               310 .gitignore
+    03/21/2019  07:48 AM    <DIR>          dnr
+    03/21/2019  07:44 AM    <DIR>          docs
+    03/21/2019  07:42 AM               290 git.txt
+    03/21/2019  07:42 AM             1,460 links.txt
+    03/21/2019  07:42 AM             2,341 manifest
+    03/21/2019  07:42 AM    <DIR>          pdf
+    03/21/2019  07:42 AM             1,536 README
+                   5 File(s)          5,937 bytes
+                   5 Dir(s)  250,900,418,560 bytes free
+
+    C:\Users\remarcil\Desktop\git>
+
+List files in dnr/ repo:
+    C:\Users\remarcil\Desktop>cd git/dnr
+
+    C:\Users\remarcil\Desktop\git\dnr>dir
+     Volume in drive C has no label.
+     Volume Serial Number is 1AD3-9A60
+
+     Directory of C:\Users\remarcil\Desktop\git\dnr
+
+    03/21/2019  07:48 AM    <DIR>          .
+    03/21/2019  07:48 AM    <DIR>          ..
+    03/21/2019  07:48 AM               264 .gitignore
+    03/21/2019  07:48 AM            55,041 dnr-work.txt
+    03/21/2019  07:48 AM    <DIR>          docs
+    03/21/2019  07:48 AM             1,821 manifest
+    03/21/2019  07:48 AM             1,048 README
+    03/21/2019  07:48 AM               207 schedule.txt
+                   5 File(s)         58,381 bytes
+                   3 Dir(s)  250,900,279,296 bytes free
+
+    C:\Users\remarcil\Desktop\git\dnr>
