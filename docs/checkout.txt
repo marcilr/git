@@ -1,0 +1,13 @@
+checkout.txt
+Created Thu Mar 21 07:43:12 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+git repo checkout
+
+
+For the penguin or windows:
+
+$ git clone ssh://git@github.com/marcilr/git.git git
+
+
