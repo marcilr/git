@@ -40,6 +40,7 @@ ssh://git@github.com/marcilr/hosts.git           hosts
 ssh://git@github.com/marcilr/hardware.git        hardware
 ssh://git@github.com/marcilr/lang.git            lang
 ssh://git@github.com/marcilr/net.git             net
+ssh://git@github.com/marcilr/office              office
 ssh://git@github.com/marcilr/os.git              os
 ssh://git@github.com/marcilr/projects.git        projects
 ssh://git@github.com/marcilr/putty.git           putty
