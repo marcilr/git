@@ -41,6 +41,7 @@ ssh://git@github.com/marcilr/hosts.git           hosts
 ssh://git@github.com/marcilr/hardware.git        hardware
 ssh://git@github.com/marcilr/lang.git            lang
 ssh://git@github.com/marcilr/net.git             net
+ssh://git@github.com/marcilr/office              office
 ssh://git@github.com/marcilr/os.git              os
 ssh://git@github.com/marcilr/projects.git        projects
 ssh://git@github.com/marcilr/putty.git           putty
@@ -49,4 +50,5 @@ ssh://git@github.com/marcilr/revision-control    revision-control
 ssh://git@github.com/marcilr/security            security
 ssh://git@github.com/marcilr/utils               utils
 ssh://git@github.com/marcilr/virtualization      virtualization
+ssh://git@github.com/marcilr/vpn                 vpn
 ssh://git@github.com/marcilr/x11.git             x11
