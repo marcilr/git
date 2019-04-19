@@ -1,0 +1,93 @@
+csv-to-pdf.txt
+Created Fri Apr 19 15:06:55 AKDT 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Looking into the best way to convert csv files to excel.
+
+For automatically converting CSV files to XLS/XLSX ones
+you can also use ssconvert (which comes with Gnumeric)
+or unoconv (which uses LibreOffice).
+--unix.stackexchange.com/questions/158254/convert-csv-to-xls-file-on-linux
+
+
+SSConvert Example
+=================
+$ echo -e 'surname,name,age\nCarlo,Smith,23\nJohn,Doe,46\nJane,Doe,69\nSarah,Meyer,23\n' \
+     > example.csv
+$ unix2dos example.csv
+$ ssconvert example.csv example.xlsx
+$ ssconvert example.csv example.xls
+Where the first ssconvert call creates a MS Excel 2007/2010 file and the second an old school Excel 2007 one.
+
+You can check the files via file:
+
+$ file example.csv
+example.csv: ASCII text, with CRLF line terminators
+$ file example.xls
+example.xls: Composite Document File V2 Document, Little Endian, Os: Windows, Version 4.10,
+   Code page: 1252, Create Time/Date: Tue Sep 30 20:23:18 2014
+$ file example.xlsx 
+example.xlsx: Microsoft Excel 2007+
+You can list all supported output file formats via:
+
+$ ssconvert --list-exporters
+ID                           | Description
+[..]
+Gnumeric_Excel:xlsx2         | ISO/IEC 29500:2008 & ECMA 376 2nd edition (2008);
+                               [MS Excel™ 2010]
+Gnumeric_Excel:xlsx          | ECMA 376 1st edition (2006); [MS Excel™ 2007]
+Gnumeric_Excel:excel_dsf     | MS Excel™ 97/2000/XP & 5.0/95
+Gnumeric_Excel:excel_biff7   | MS Excel™ 5.0/95
+Gnumeric_Excel:excel_biff8   | MS Excel™ 97/2000/XP
+[..]
+
+
+
+
+
+
+The libreoffice command often fails:
+  $ soffice --headless --convert-to xlsx:"Calc MS Excel 2007 XML" WPT.csv
+  convert /home/remarcil/git/dnr/projects/svn-to-git/svntom/trunk/\
+  bpu/projects/WPT/WPT.csv -> /home/remarcil/git/dnr/projects/\
+  svn-to-git/svntom/trunk/bpu/projects/WPT/WPT.xlsx using \
+  filter : Calc MS Excel 2007 XML
+  $
+
+
+Unoconv Example
+===============
+$ unoconv --format  xls example.csv
+which creates example.xls, which is a Excel 97/2000/XP file.
+
+Check via file:
+
+$ file example.xls 
+example.xls: Composite Document File V2 Document, Little Endian, Os: Windows, Version 1.0,
+  Code page: -535, Revision Number: 0
+You can list all supported file formats via:
+
+$ unoconv --show
+[..]
+The following list of spreadsheet formats are currently available:
+
+  csv      - Text CSV [.csv]
+  dbf      - dBASE [.dbf]
+[..]
+  ooxml    - Microsoft Excel 2003 XML [.xml]
+[..]
+  xls      - Microsoft Excel 97/2000/XP [.xls]
+  xls5     - Microsoft Excel 5.0 [.xls]
+  xls95    - Microsoft Excel 95 [.xls]
+[..]
+
+--unix.stackexchange.com/questions/158254/convert-csv-to-xls-file-on-linux
+
+
+
+Links
+=====
+convert CSV to XLS file on linux [closed]
+asked Sep 29 '14 at 16:45
+https://unix.stackexchange.com/questions/158254/convert-csv-to-xls-file-on-linux
