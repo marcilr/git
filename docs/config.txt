@@ -1,7 +1,0 @@
-config.txt
-Created Wed November 21, 2018
-by Raymond E. Marcil <marcilr@gmail.com>
-
-Git configuration items:
-  git config --global user.name "Your Name"
-  git config --global user.email you@example.com
