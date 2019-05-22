@@ -31,6 +31,7 @@
 # -----------------------------------------------------
 ssh://git@github.com/marcilr/00TODO.git          00TODO
 ssh://git@github.com/marcilr/apps.git            apps
+ssh://git@github.com/marcilr/bicycling.git       bicycling
 ssh://git@github.com/marcilr/books.git           books
 ssh://git@github.com/marcilr/business.git        business
 ssh://git@github.com/marcilr/database.git        database
