@@ -49,6 +49,7 @@ ssh://git@github.com/marcilr/ocr                 ocr
 ssh://git@github.com/marcilr/office              office
 ssh://git@github.com/marcilr/os.git              os
 ssh://git@github.com/marcilr/projects.git        projects
+ssh://git@github.com/marcilr/purchases.git       purchases
 ssh://git@github.com/marcilr/putty.git           putty
 ssh://git@github.com/marcilr/quotes              quotes
 ssh://git@github.com/marcilr/resync.git          resync
