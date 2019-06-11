@@ -58,6 +58,7 @@ ssh://git@github.com/marcilr/resync.git          resync
 ssh://git@github.com/marcilr/revision-control    revision-control
 ssh://git@github.com/marcilr/security            security
 ssh://git@github.com/marcilr/tex                 tex
+ssh://git@github.com/marcilr/travel.git          travel
 ssh://git@github.com/marcilr/utils               utils
 ssh://git@github.com/marcilr/virtualization      virtualization
 ssh://git@github.com/marcilr/vpn                 vpn
