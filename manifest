@@ -55,6 +55,7 @@ ssh://git@github.com/marcilr/purchases.git       purchases
 ssh://git@github.com/marcilr/putty.git           putty
 ssh://git@github.com/marcilr/quotes              quotes
 ssh://git@github.com/marcilr/resync.git          resync
+ssh://git@github.com/marcilr/retirement          retirment    
 ssh://git@github.com/marcilr/revision-control    revision-control
 ssh://git@github.com/marcilr/security            security
 ssh://git@github.com/marcilr/tex                 tex
