@@ -52,7 +52,9 @@ resync/
   src/dest mapping or a ~/.manifest file must exist with the src/dest
   mapping.
   https://github.com/marcilr/resync.git
-  
+
+retirement/
+  Retirement  
 
 
 Links
