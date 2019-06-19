@@ -11,6 +11,7 @@ Links
 Top 10 best PDF Editors for Linux
 BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
 1. LibreOffice Draw
+   Does not work (6/19/2019)
 
 2. Okular
    "To my knowledge, currently none of Okular's backends
@@ -20,11 +21,15 @@ BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
      dot376
      https://superuser.com/questions/813734/how-to-sign-a-pdf-in-okular-or-other-foss-program
 
-3. Master DPF Editor
+3. Master PDF Editor
+
 4. Foxit Reader
 5. Scribus
 6. Qoppa PDF Studio 11
+
 7. GIMP
+   Only appears to edit as image
+
 8. Inkscape
 9. PDF Escape
 10. Evince (viewing only)
