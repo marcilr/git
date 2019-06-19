@@ -1,0 +1,23 @@
+links.txt
+Created Wed Jun 19 13:13:45 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+pdf related links
+
+
+Links
+=====
+Top 10 best PDF Editors for Linux
+BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
+1. LibreOffice Draw
+2. Okular
+3. Master DPF Editor
+4. Foxit Reader
+5. Scribus
+6. Qoppa PDF Studio 11
+7. GIMP
+8. Inkscape
+9. PDF Escape
+10. Evince (viewing only)
+https://curiouspost.com/top-10-best-pdf-editors-linux/
