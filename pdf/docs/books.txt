@@ -1,0 +1,14 @@
+books.txt
+Created Wed Jun 19 14:15:40 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Books related to pdfs
+
+
+Links
+=====
+PDF Explained: The ISO Standard for Document Exchange 1st Edition
+by John Whitington
+price: $7.99 (Kindle - June 19, 2019)
+https://www.amazon.com/PDF-Explained-Standard-Document-Exchange/dp/1449310028/ref=sm_n_au_dka_US_pr_con_1_0?adId=1449310028&creativeASIN=1449310028&linkId=c854c1dd25520390ff3ee1d595b17b44&tag=curio050-20&linkCode=w41&ref-refURL=https%3A%2F%2Fcuriouspost.com%2Ftop-10-best-pdf-editors-linux%2F&slotNum=0&imprToken=S2SPTnjcdr.4Rk0yfYJwdA&adType=smart&adMode=auto&adFormat=grid&impressionTimestamp=1560978788835
