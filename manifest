@@ -37,6 +37,7 @@ ssh://git@github.com/marcilr/backup.git          backup
 ssh://git@github.com/marcilr/bicycling.git       bicycling
 ssh://git@github.com/marcilr/books.git           books
 ssh://git@github.com/marcilr/business.git        business
+ssh://git@github.com/marcilr/cli.git             cli
 ssh://git@github.com/marcilr/database.git        database
 ssh://git@github.com/marcilr/dev.git             dev
 #ssh://dnratwtfs:22/tfs/Sandboxes/_git/dnr        dnr
