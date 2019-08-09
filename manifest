@@ -33,6 +33,7 @@
 ssh://git@github.com/marcilr/00TODO.git          00TODO
 ssh://git@github.com/marcilr/adt.git             adt
 ssh://git@github.com/marcilr/apps.git            apps
+ssh://git@github.com/marcilr/asea.git            asea
 ssh://git@github.com/marcilr/backup.git          backup
 ssh://git@github.com/marcilr/bicycling.git       bicycling
 ssh://git@github.com/marcilr/books.git           books
