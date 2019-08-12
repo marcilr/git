@@ -10,14 +10,17 @@
 adt/
 apps/
 backup/
+benefits/
 books/
 bicycling/
 business/
+cli/
 convert/
 database/
 dev/
 dnr/
 fanless/
+finance/
 find/
 git/
 gnu/
@@ -31,6 +34,7 @@ os/
 net/
 ocr/
 projects/
+property/
 purchases/
 putty/
 quotes/
@@ -40,6 +44,7 @@ revision-control/
 rmarcil/
 security/
 sed/
+spreadsheets/
 tex/
 travel/
 utils/
