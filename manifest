@@ -53,6 +53,7 @@ ssh://git@github.com/marcilr/hosts.git           hosts
 ssh://git@github.com/marcilr/hardware.git        hardware
 ssh://git@github.com/marcilr/jobs.git            jobs
 ssh://git@github.com/marcilr/lang.git            lang
+ssh://git@github.com/marcilr/libreoffice.git     libreoffice
 ssh://git@github.com/marcilr/net.git             net
 ssh://git@github.com/marcilr/ocr                 ocr
 ssh://git@github.com/marcilr/office              office
