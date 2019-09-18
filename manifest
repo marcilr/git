@@ -48,6 +48,7 @@ ssh://git@github.com/marcilr/fanless.git         fanless
 ssh://git@github.com/marcilr/finance.git         finance
 ssh://git@github.com/marcilr/find.git            find
 ssh://git@github.com/marcilr/gnu.git             gnu
+ssh://git@github.com/marcilr/graphics.git        graphics
 ssh://git@github.com/marcilr/health-care.git     health-care
 ssh://git@github.com/marcilr/hosts.git           hosts
 ssh://git@github.com/marcilr/hardware.git        hardware
