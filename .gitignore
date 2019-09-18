@@ -1,8 +1,8 @@
 #.gitignore
-# Created Mon November 19, 2018
+# Created Mon Nov 19 09:22:31 AKDT 2018
 # by Raymond E. Marcil <marcilr@gmail.com>
 #
-# Files for git to ignore.
+# Files for git to ignore
 #
 .gitignore
 00BACKUPS/
