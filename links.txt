@@ -1,5 +1,5 @@
 links.txt
-Created Mon November 19, 2018
+Created Mon Nov 19 09:25:06 AKDT 2018
 By Raymond E. Marcil <marcilr@gmail.com>
 
 
