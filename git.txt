@@ -1,5 +1,5 @@
 git.txt
-Created Mon November 19, 2018
+Created Mon Nov 19 09:24:12 AKDT 2018
 by Raymond E. Marcil <marcilr@gmail.com>
 
 
