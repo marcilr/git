@@ -64,6 +64,7 @@ ssh://git@github.com/marcilr/resync.git          resync
 ssh://git@github.com/marcilr/retirement          retirement    
 ssh://git@github.com/marcilr/revision-control    revision-control
 ssh://git@github.com/marcilr/security            security
+ssh://git@github.com/marcilr/space.git           space
 ssh://git@github.com/marcilr/spreadsheets        spreadsheets
 ssh://git@github.com/marcilr/tex                 tex
 ssh://git@github.com/marcilr/travel.git          travel
