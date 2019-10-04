@@ -65,6 +65,7 @@ ssh://git@github.com/marcilr/resync.git             resync
 ssh://git@github.com/marcilr/retirement.git         retirement    
 ssh://git@github.com/marcilr/revision-control.git   revision-control
 ssh://git@github.com/marcilr/security.git           security
+ssh://git@github.com/marcilr/solar.git              solar
 ssh://git@github.com/marcilr/space.git              space
 ssh://git@github.com/marcilr/spreadsheets.git       spreadsheets
 ssh://git@github.com/marcilr/storage.git            storage
