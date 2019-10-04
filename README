@@ -43,6 +43,9 @@ irm/
   Hence, using IRM instead.  Need container for Alaska 
   State DNR gir repos.
 
+irs/ (Internal Revenue Service) repo
+  ssh://git@github.com/marcilr/irs.git
+
 manifest
   Manifest file for resync application
 
