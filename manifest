@@ -1,0 +1,79 @@
+# manifest
+# Created Tue 12 Nov 2019 04:04:15 PM AKST
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+# ================================================================== #
+# Manifest file for use by resync script
+#
+# Python script to automate the check of github hierarchical 
+# directories.  The github directories are named with 
+# dir-subdir-subsubdir format such that tracking the hierarchical 
+# directories is easily trackable.
+#
+# The base directory being checked out to must have a manifest file 
+# with src/dest mapping or a ~/.manifest file must exist with the 
+# src/dest mapping.
+#
+# A typically manifest file would contain:
+#
+#
+# -------------------------------------------------------
+# Source                                           Target
+# ------------------------------------------------------- 
+# https://github.com/marcilr/git-github.git          github
+# https://github.com/marcilr/git-github-syntax.git   github/syntax
+#
+# NOTE: The target value can be a relative or fully qualified path.
+# ================================================================== #
+
+
+
+# --------------------------------------------------------
+# Source                                            Target
+# --------------------------------------------------------
+#ssh://git@github.com/marcilr/00TODO.git             00TODO
+#ssh://git@github.com/marcilr/adt.git                adt
+#ssh://git@github.com/marcilr/apps.git               apps
+#ssh://git@github.com/marcilr/asea.git               asea
+#ssh://git@github.com/marcilr/backup.git             backup
+#ssh://git@github.com/marcilr/benefits.git           benefits
+#ssh://git@github.com/marcilr/bicycling.git          bicycling
+#ssh://git@github.com/marcilr/books.git              books
+#ssh://git@github.com/marcilr/business.git           business
+#ssh://git@github.com/marcilr/cli.git                cli
+#ssh://git@github.com/marcilr/database.git           database
+#ssh://git@github.com/marcilr/dev.git                dev
+#ssh://dnratwtfs:22/tfs/Sandboxes/_git/dnr.git      dnr
+#ssh://dnratwtfsp:22/Sandboxes/_git/dnr.git          dnr
+#ssh://git@github.com/marcilr/fanless.git            fanless
+#ssh://git@github.com/marcilr/finance.git            finance
+ssh://git@github.com/marcilr/gnu.git                gnu
+#ssh://git@github.com/marcilr/graphics.git           graphics
+#ssh://git@github.com/marcilr/health-care.git        health-care
+#ssh://git@github.com/marcilr/hosts.git              hosts
+#ssh://git@github.com/marcilr/hardware.git           hardware
+#ssh://git@github.com/marcilr/irs.git                irs
+ssh://git@github.com/marcilr/jobs.git               jobs
+ssh://git@github.com/marcilr/lang.git               lang
+ssh://git@github.com/marcilr/net.git                net
+ssh://git@github.com/marcilr/os.git                 os
+ssh://git@github.com/marcilr/projects.git           projects
+ssh://git@github.com/marcilr/property.git           property
+ssh://git@github.com/marcilr/purchases.git          purchases
+#ssh://git@github.com/marcilr/putty.git              putty
+#ssh://git@github.com/marcilr/quotes.git             quotes
+#ssh://git@github.com/marcilr/resync.git             resync
+ssh://git@github.com/marcilr/retirement.git         retirement    
+ssh://git@github.com/marcilr/revision-control.git   revision-control
+ssh://git@github.com/marcilr/security.git           security
+#ssh://git@github.com/marcilr/solar.git              solar
+#ssh://git@github.com/marcilr/space.git              space
+#ssh://git@github.com/marcilr/spreadsheets.git       spreadsheets
+ssh://git@github.com/marcilr/storage.git            storage
+ssh://git@github.com/marcilr/tex.git                tex
+#ssh://git@github.com/marcilr/travel.git             travel
+ssh://git@github.com/marcilr/unemployment.git        unemployment
+#ssh://git@github.com/marcilr/utils.git              utils
+#ssh://git@github.com/marcilr/virtualization.git     virtualization
+#ssh://git@github.com/marcilr/vpn.git                vpn
+#ssh://git@github.com/marcilr/x11.git                x11
