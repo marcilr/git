@@ -65,6 +65,7 @@ ssh://git@github.com/marcilr/property.git           property
 ssh://git@github.com/marcilr/purchases.git          purchases
 #ssh://git@github.com/marcilr/putty.git              putty
 #ssh://git@github.com/marcilr/quotes.git             quotes
+ssh://git@github.com/marcilr/resume.git             resume
 #ssh://git@github.com/marcilr/resync.git             resync
 ssh://git@github.com/marcilr/retirement.git         retirement    
 ssh://git@github.com/marcilr/revision-control.git   revision-control
