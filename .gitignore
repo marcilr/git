@@ -18,6 +18,7 @@ business/
 cli/
 convert/
 database/
+debt/
 dev/
 dnr/
 fanless/
@@ -31,6 +32,7 @@ jobs/
 hosts/
 lang/
 libreoffice/
+linode/
 net/
 office/
 orders/
@@ -43,6 +45,7 @@ purchases/
 putty/
 quotes/
 resync/
+resume/
 retirement/
 revision-control/
 rmarcil/
@@ -58,3 +61,4 @@ utils/
 virtualization/
 vpn/
 x11/
+xfce/
