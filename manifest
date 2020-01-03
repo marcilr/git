@@ -75,6 +75,7 @@ ssh://git@github.com/marcilr/security.git           security
 #ssh://git@github.com/marcilr/space.git              space
 #ssh://git@github.com/marcilr/spreadsheets.git       spreadsheets
 ssh://git@github.com/marcilr/storage.git            storage
+ssh://git@github.com/marcilr/subscriptions.git      subscriptions
 ssh://git@github.com/marcilr/tex.git                tex
 #ssh://git@github.com/marcilr/travel.git             travel
 #ssh://git@github.com/marcilr/unemployment.git        unemployment
