@@ -8,3 +8,11 @@ Filelist
 csv-to-pdf.txt
   Convert csv's to pdf
 
+extract-images.txt
+  To extract images from pdf file use pdfimages:
+
+  pdfimages  -  Portable  Document  Format (PDF) image extractor
+                (version 3.03)
+
+  SYNOPSIS
+         pdfimages [options] PDF-file image-root
