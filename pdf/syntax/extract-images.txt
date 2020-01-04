@@ -1,0 +1,68 @@
+extract-images.txt
+Created Sat 04 Jan 2020 09:51:45 AM AKST
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To extract images from pdf file use pdfimages:
+
+
+pdfimages  -  Portable  Document  Format (PDF) image extractor
+              (version 3.03)
+
+SYNOPSIS
+       pdfimages [options] PDF-file image-root
+
+
+Example
+=======
+Scan to vfat usb key:
+
+$ cd /media/marcilr/3EEA-AB6E
+$ cd BROTHER/
+$ ls -al
+$ ls -al
+total 18592
+drwxr-xr-x  2 marcilr marcilr    16384 Sep 28 08:00  .
+drwxr-xr-x 12 marcilr marcilr    16384 Dec 31  1969  ..
+-rw-r--r--  1 marcilr marcilr    21311 Jan  4 00:31  01042000.PDF
+-rw-r--r--  1 marcilr marcilr   560942 Sep 28 08:09 '1095B 2018 Shena & Ray.PDF'
+-rw-r--r--  1 marcilr marcilr   483016 Sep 28 08:10 '1095C 2018 Shena & Ray.PDF'
+-rw-r--r--  1 marcilr marcilr    94247 Sep 28 08:11 '1099 DIV 2018 Raymond Conoco.PDF'
+-rw-r--r--  1 marcilr marcilr    41574 Nov 20 11:59  11201900.PDF
+-rw-r--r--  1 marcilr marcilr    23241 Sep 28 08:12 '2018 Jury Duty Payment.PDF'
+-rw-r--r--  1 marcilr marcilr 13021850 Sep 28 08:57  2019W200.PDF
+-rw-r--r--  1 marcilr marcilr    43069 Sep 28 08:12 'Donation 2018 AK Public Media.PDF'
+-rw-r--r--  1 marcilr marcilr   127525 Sep 28 08:01 'Municipal Property Tax 2018.PDF'
+-rw-r--r--  1 marcilr marcilr   418925 Sep 28 08:06 'W2 - 2018 Shena & Ray SOA.PDF'
+-rw-r--r--  1 marcilr marcilr  4081927 Sep 28 09:01  W2201900.PDF
+$ 
+
+The 01042000.PDF is from today Sat Jan 4, 2020.
+
+$ mkdir tmp
+$ mv 01042000.PDF tmp/
+$ cd tmp/
+$ pdfimages 01042000.PDF signature
+
+This created signature-000.ppm:
+$ ls -al
+total 2688
+drwxr-xr-x 2 marcilr marcilr   16384 Jan  4 09:57 .
+drwxr-xr-x 3 marcilr marcilr   16384 Jan  4 09:56 ..
+-rw-r--r-- 1 marcilr marcilr   21311 Jan  4 00:31 01042000.PDF
+-rw-r--r-- 1 marcilr marcilr 2683216 Jan  4 09:57 signature-000.ppm
+$
+
+Open signature-000.ppm with gimp and save as png:
+$ gimp signature-000.ppm
+
+===> signature-000.png
+
+
+
+Links
+=====
+How to Extract and Save Images from a PDF File in Linux
+Lori Kaufman  @howtogeek
+September 15, 2015, 10:24am EDT
+https://www.howtogeek.com/228796/how-to-extract-and-save-images-from-a-pdf-file-in-linux/
