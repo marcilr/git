@@ -33,6 +33,7 @@ hosts/
 lang/
 libreoffice/
 linode/
+mortgage/
 net/
 office/
 orders/
@@ -54,11 +55,13 @@ sed/
 space/
 spreadsheets/
 storage/
+subscriptions/
 tex/
 travel/
 unemployment/
 utils/
 virtualization/
+voicemail/
 vpn/
 x11/
 xfce/
