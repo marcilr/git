@@ -43,7 +43,7 @@
 #ssh://git@github.com/marcilr/cli.git                cli
 #ssh://git@github.com/marcilr/database.git           database
 ssh://git@github.com/marcilr/debt.git               debt
-#ssh://git@github.com/marcilr/dev.git                dev
+ssh://git@github.com/marcilr/dev.git                dev
 ssh://git@github.com/marcilr/dewalt.git              dewalt
 #ssh://dnratwtfs:22/tfs/Sandboxes/_git/dnr.git      dnr
 #ssh://dnratwtfsp:22/Sandboxes/_git/dnr.git          dnr
