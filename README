@@ -15,8 +15,9 @@ Clone GitHub base repo (Mon November 19, 2018):
 
 Filelist
 ========
-00TODO
-  Items todo
+00TODO/
+  Items TODO repo:
+  ssh://git@github.com/marcilr/00TODO.git
 
 asea/
   State of Alaska union
