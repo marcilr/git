@@ -63,6 +63,7 @@ ssh://git@github.com/marcilr/media.git              media
 ssh://git@github.com/marcilr/net.git                net
 ssh://git@github.com/marcilr/orders.git             orders
 ssh://git@github.com/marcilr/os.git                 os
+ssh://git@github.com/marcilr/parted.git             parted
 ssh://git@github.com/marcilr/projects.git           projects
 ssh://git@github.com/marcilr/property.git           property
 ssh://git@github.com/marcilr/purchases.git          purchases
