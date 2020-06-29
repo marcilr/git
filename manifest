@@ -74,6 +74,7 @@ ssh://git@github.com/marcilr/purchases.git                purchases
 ssh://git@github.com/marcilr/raspberry-pi-4-model-b.git   raspberry-pi-4-model-b
 ssh://git@github.com/marcilr/retirement.git               retirement    
 ssh://git@github.com/marcilr/revision-control.git         revision-control
+ssh://git@github.com/marcilr/sbc.git                      sbc
 ssh://git@github.com/marcilr/security.git                 security
 #ssh://git@github.com/marcilr/solar.git                    solar
 #ssh://git@github.com/marcilr/space.git                    space
