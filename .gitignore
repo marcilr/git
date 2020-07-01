@@ -10,6 +10,7 @@
 adt/
 apps/
 asea/
+atomics/
 backup/
 benefits/
 books/
@@ -43,11 +44,13 @@ orders/
 outlook/
 os/
 ocr/
+parted/
 projects/
 property/
 purchases/
 putty/
 quotes/
+raspberry-pi-4-model-b/
 resync/
 resume/
 retirement/
