@@ -8,6 +8,13 @@ designed to handle everything from small to very large projects
 with speed and efficiency.
 
 
+Git for windows installs all the basic utils for win32
+o gnuls gnucp
+o Problems shell: cmd
+o windows uses console wrapper called: consolez
+o windows has real tty and terminal window now
+
+
 Links
 =====
 Git
