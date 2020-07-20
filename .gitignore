@@ -19,7 +19,7 @@ business/
 cli/
 compass/
 convert/
-database/
+databases/
 debt/
 dev/
 dewalt/
@@ -32,6 +32,7 @@ gnu/
 graphics/
 hardware/
 jobs/
+home-power/
 hosts/
 lang/
 libreoffice/
