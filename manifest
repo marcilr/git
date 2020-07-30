@@ -43,6 +43,7 @@ ssh://git@github.com/marcilr/atomics.git                  atomics
 #ssh://git@github.com/marcilr/business.git                 business
 #ssh://git@github.com/marcilr/cli.git                      cli
 ssh://git@github.com/marcilr/databases.git                databases
+ssh://git@github.com/marcilr/daewoo.git                   daewoo
 ssh://git@github.com/marcilr/debt.git                     debt
 ssh://git@github.com/marcilr/dev.git                      dev
 ssh://git@github.com/marcilr/dewalt.git                   dewalt
