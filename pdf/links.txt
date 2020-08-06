@@ -8,6 +8,15 @@ pdf related links
 
 Links
 =====
+Adobe Acrobat Reader DC
+Do not see linux version listed (Thu 06 Aug 2020)
+https://get.adobe.com/reader/otherversions/
+
+Linux PDF Viewer: Best 15 PDF Readers Reviewed for Linux Users
+Ubuntu Pit
+by Mehedi Hasan
+https://www.ubuntupit.com/linux-pdf-viewer-best-15-pdf-readers-reviewed-for-linux-users/
+
 Top 10 best PDF Editors for Linux
 BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
 1. LibreOffice Draw
