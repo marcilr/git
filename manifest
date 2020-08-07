@@ -64,6 +64,7 @@ ssh://git@github.com/marcilr/lang.git                     lang
 ssh://git@github.com/marcilr/linode.git                   linode
 ssh://git@github.com/marcilr/media.git                    media
 ssh://git@github.com/marcilr/net.git                      net
+ssh://git@github.com/marcilr/omigo.git                    omigo
 ssh://git@github.com/marcilr/orders.git                   orders
 ssh://git@github.com/marcilr/os.git                       os
 ssh://git@github.com/marcilr/parted.git                   parted
