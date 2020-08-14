@@ -33,6 +33,7 @@
 # ------------------------------------------------------------------
 ssh://git@github.com/marcilr/00TODO.git                   00TODO
 #ssh://git@github.com/marcilr/adt.git                      adt
+ssh://git@github.com/marcilr/apache.git                   apache
 #ssh://git@github.com/marcilr/apps.git                     apps
 #ssh://git@github.com/marcilr/asea.git                     asea
 ssh://git@github.com/marcilr/atomics.git                  atomics
