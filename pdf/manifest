@@ -31,4 +31,4 @@
 # ------------------------------------------------------------------------------
 # Source                                                  Target
 # ------------------------------------------------------------------------------
-ssh://git@github.com/marcilr/create-searchable-pdfs.git   create-searchable-pdfs
+ssh://git@github.com/marcilr/create-searchable-pdfs.git   searchable
