@@ -11,3 +11,7 @@ available on the Adobe home page http://www.adobe.com.
 Its predecessor, xpdf, is also available.  Both should
 print to a postscript device.
 https://www.tldp.org/HOWTO/Printing-Usage-HOWTO-3.html
+
+
+Any good alternatives to Adobe Acrobat reader which
+I question if it is still available for the penguin.
