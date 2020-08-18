@@ -17,5 +17,8 @@ docs/
 links.txt
   pdf related links
 
+manifest
+  Manifest file for use by resync script
+
 syntax/
   pdf related syntax
