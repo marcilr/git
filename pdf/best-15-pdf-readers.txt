@@ -2,10 +2,12 @@ best-15-pdf-readers.txt
 Created Tue 18 Aug 2020 09:09:17 AM AKDT
 Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
 
+
 Linux PDF Viewer: Best 15 PDF Readers Reviewed for Linux Users
 Ubuntu Pit
 by Mehedi Hasan
 https://www.ubuntupit.com/linux-pdf-viewer-best-15-pdf-readers-reviewed-for-linux-users/
+
 
 Top 10 best PDF Editors for Linux
 BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
