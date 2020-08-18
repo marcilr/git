@@ -1,0 +1,51 @@
+10-best-pdf-editors-for-linux.txt
+Created Wed Jun 19 13:13:45 AKDT 2019
+Copyright (C) 2019-2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Top 10 best PDF Editors for Linux
+by GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
+
+1. LibreOffice Draw
+   Does not work (6/19/2019)
+
+2. Okular
+   "To my knowledge, currently none of Okular's backends
+   support electronic signatures, although that feature
+   has been requested a number of times."
+   --answered May 23 '16 at 11:11
+     dot376
+     https://superuser.com/questions/813734/how-to-sign-a-pdf-in-okular-or-other-foss-program
+
+3. Master PDF Editor
+
+4. Foxit Reader
+5. Scribus
+6. Qoppa PDF Studio 11
+
+7. GIMP
+   Only appears to edit as image
+
+8. Inkscape
+   Got this to edit and edit and insert graphic
+   signature to SOA DNR OIT to 
+   FORM_OutsideEmploy-Raymond-Marcil.pdf 
+   Very nice.
+
+   Original form:
+     Ethics Disclosure Form
+     Outside Employment of Services
+     http://law.alaska.gov/pdf/ethics/FORM_OutsideEmploy.pdf
+
+9. PDF Escape
+
+10. Evince (viewing only)
+https://curiouspost.com/top-10-best-pdf-editors-linux/
+
+
+Links
+=====
+Top 10 best PDF Editors for Linux
+BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
+Verified Tue 18 Aug 2020 09:22:03 AM AKDT
+https://curiouspost.com/top-10-best-pdf-editors-linux/
