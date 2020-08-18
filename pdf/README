@@ -5,11 +5,8 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
-best-15-pdf-readers.txt
-  Linux PDF Viewer: Best 15 PDF Readers Reviewed for Linux Users
-  Ubuntu Pit
-  by Mehedi Hasan
-  https://www.ubuntupit.com/linux-pdf-viewer-best-15-pdf-readers-reviewed-for-linux-users/
+.gitignore
+  Files for git to ignore
 
 docs/
   Documentation
