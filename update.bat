@@ -14,6 +14,8 @@ REM apache2            https://github.com/marcilr/apache2
 REM ant                https://github.com/marcilr/ant
 REM debian             https://github.com/marcilr/debian
 REM httpd              https://github.com/marcilr/httpd
+REM tex                https://github.com/marcilr/tex
+REM oracle             https://github.com/marcilr/tex-oracle
 REM parted             https://github.com/marcilr/parted
 REM virtualization     https://github.com/marcilr/virtualization
 REM vmware             https://github.com/marcilr/vmware
@@ -157,6 +159,23 @@ IF EXIST parted (
 ) ELSE (
   ECHO "Cloning debian..."
   git clone "https://github.com/marcilr/parted" parted
+)
+
+
+REM
+REM ================================= TEX ====================================
+REM ================================= TEX ====================================
+REM ================================= TEX ====================================
+REM
+IF EXIST tex (
+  ECHO "Updating oracle..."
+  ECHO "Running: git pull https://github.com/marcilr/tex tex"
+  cd debian
+  git pull https://github.com/marcilr/tex tex
+  cd ..
+) ELSE (
+  ECHO "Cloning oracle..."
+  git clone "https://github.com/marcilr/tex" tex
 )
 
 
