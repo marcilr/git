@@ -8,6 +8,7 @@
 00BACKUPS/
 00TODO/
 adt/
+apache/
 apps/
 asea/
 atomics/
@@ -21,6 +22,7 @@ compass/
 convert/
 daewoo/
 databases/
+debian/
 debt/
 dev/
 dewalt/
