@@ -1,15 +1,11 @@
-links.txt
+10-best-pdf-editors-for-linux.txt
 Created Wed Jun 19 13:13:45 AKDT 2019
-Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+Copyright (C) 2019-2020 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-pdf related links
-
-
-Links
-=====
 Top 10 best PDF Editors for Linux
-BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
+by GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
+
 1. LibreOffice Draw
    Does not work (6/19/2019)
 
@@ -42,5 +38,14 @@ BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
      http://law.alaska.gov/pdf/ethics/FORM_OutsideEmploy.pdf
 
 9. PDF Escape
+
 10. Evince (viewing only)
+https://curiouspost.com/top-10-best-pdf-editors-linux/
+
+
+Links
+=====
+Top 10 best PDF Editors for Linux
+BY GANESH VENIGALLA · PUBLISHED JANUARY 17, 2018 · UPDATED JANUARY 17, 2018
+Verified Tue 18 Aug 2020 09:22:03 AM AKDT
 https://curiouspost.com/top-10-best-pdf-editors-linux/

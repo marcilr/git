@@ -1,0 +1,17 @@
+printing-pdf-files.txt
+Created Tue 18 Aug 2020 09:42:23 AM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Printing PDF files
+
+
+Adobe has released an Acrobat reader for Linux, and it's
+available on the Adobe home page http://www.adobe.com.
+Its predecessor, xpdf, is also available.  Both should
+print to a postscript device.
+https://www.tldp.org/HOWTO/Printing-Usage-HOWTO-3.html
+
+
+Any good alternatives to Adobe Acrobat reader which
+I question if it is still available for the penguin.

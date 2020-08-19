@@ -1,0 +1,52 @@
+viewers-readers.txt
+Created Tue 18 Aug 2020 09:15:55 AM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+PDF Viewers / Readers
+
+
+Debian has multiple PDF viewers packaged, such as:
+
+atril - for MATE desktop
+evince - for GNOME desktop
+kpdf - for KDE 3 desktop
+mupdf - for any X window manager (no extra features)
+okular - for KDE 4 desktop
+qpdfview - tabbed document viewer - QT
+viewpdf.app - for GNUstep environment
+xpdf - for advanced features other X window managers (no extra features)
+--PDF
+  Debian Wiki
+  https://wiki.debian.org/PDF
+
+
+Links
+=====
+PDF Viewers / Readers
+https://wiki.debian.org/PDF
+
+Linux PDF Viewer: Best 15 PDF Readers Reviewed for Linux Users
+https://www.ubuntupit.com/linux-pdf-viewer-best-15-pdf-readers-reviewed-for-linux-users/
+
+PDF Studio Viewer
+PDF Studio Viewer is a Free PDF Viewer for Windows, Mac and Linux
+"This project's file releases are suspended because this project
+has not made source code available under an Open Source license,
+as required by SourceForge's Terms of Use."
+hilltopyodelerPosted 03/14/2019
+PDF Studio Viewer is the best PDF viewer that I've found for Linux!
+It's easy to install from their shell script, it's not too resource
+hungry, and it's packed full of features!  It's also has a really
+clean looking interface and is intuitive to use.  For creating PDF
+files, check out their PDF Studio Pro edition - it's packed full of
+features! qoppa.com/pdfstudio
+Brought to you by: qoppa
+https://sourceforge.net/projects/pdf-studio-viewer/
+
+You can try our free PDF reader on Linux, called PDF Studio Viewer.
+It has advanced search and print options and many viewing tools.
+It can open encrypted and signed PDFs.
+--oses31297381 LATEST
+  New Here , Dec 21, 2017
+  https://community.adobe.com/t5/acrobat-reader/which-pdf-reader-does-adobe-recommend-for-linux/td-p/8260662?page=1

@@ -5,8 +5,17 @@ by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+.gitignore
+  Files for git to ignore
+
+docs/
+  Documentation
+
 links.txt
   pdf related links
+
+manifest
+  Manifest file for use by resync script
 
 syntax/
   pdf related syntax

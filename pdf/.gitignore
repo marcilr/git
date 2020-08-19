@@ -1,0 +1,9 @@
+#.gitignore
+# Created Tue 18 Aug 2020 09:33:39 AM AKDT
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+# Files for git to ignore
+#
+.gitignore
+searchable/
+
