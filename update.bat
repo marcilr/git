@@ -46,6 +46,23 @@ IF EXIST apache (
   git clone "https://github.com/marcilr/apache" apache
 )
 
+
+REM ================================= ANT ===================================
+REM ================================= ANT ===================================
+REM ================================= ANT ===================================
+REM
+IF EXIST ant (
+  ECHO "Updating ant..."
+  ECHO "Running: git pull https://github.com/marcilr/ant"
+  cd apache
+  git pull https://github.com/marcilr/ant
+  cd ..
+) ELSE (
+  ECHO "Cloning ant..."
+  git clone "https://github.com/marcilr/ant" ant
+)
+
+
 REM
 REM ================================ DEBIAN =================================
 REM ================================ DEBIAN =================================
