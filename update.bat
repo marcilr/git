@@ -128,23 +128,6 @@ IF EXIST bash (
 
 
 REM
-REM ================================ DEBIAN =================================
-REM ================================ DEBIAN =================================
-REM ================================ DEBIAN =================================
-REM
-IF EXIST debian (
-  ECHO "Updating debian..."
-  ECHO "Running: git pull https://github.com/marcilr/debian"
-  cd debian
-  git pull https://github.com/marcilr/debian
-  cd ..
-) ELSE (
-  ECHO "Cloning debian..."
-  git clone "https://github.com/marcilr/debian" debian
-)
-
-
-REM
 REM ================================ HTTPD ==================================
 REM ================================ HTTPD ==================================
 REM ================================ HTTPD ==================================
@@ -194,6 +177,22 @@ IF EXIST os (
   git clone "https://github.com/marcilr/os" os
 )
 
+
+REM
+REM ================================ DEBIAN =================================
+REM ================================ DEBIAN =================================
+REM ================================ DEBIAN =================================
+REM
+IF EXIST os/debian (
+  ECHO "Updating os/debian..."
+  ECHO "Running: git pull https://github.com/marcilr/debian" os/debian
+  cd os/debian
+  git pull https://github.com/marcilr/debian os/debian
+  cd ..
+) ELSE (
+  ECHO "Cloning debian..."
+  git clone "https://github.com/marcilr/debian" os/debian
+)
 
 REM
 REM ================================ PARTED =================================
