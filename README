@@ -19,6 +19,9 @@ Filelist
   Items TODO repo:
   ssh://git@github.com/marcilr/00TODO.git
 
+apache/
+  Apache container repo for apache2, ivy, tomcat, and other apache projects
+
 asea/
   State of Alaska union
   Provides health care
