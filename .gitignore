@@ -8,7 +8,9 @@
 00BACKUPS/
 00TODO/
 adt/
+ant
 apache/
+apache2/
 apps/
 asea/
 atomics/
@@ -34,6 +36,7 @@ git/
 gnu/
 graphics/
 hardware/
+httpd/
 jobs/
 home-power/
 hosts/
@@ -45,6 +48,7 @@ mortgage/
 net/
 office/
 omigo/
+oracle/
 orders/
 outlook/
 os/
