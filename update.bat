@@ -163,6 +163,23 @@ IF EXIST parted (
 
 
 REM
+REM ================================ RESYNC =================================
+REM ================================ RESYNC =================================
+REM ================================ RESYNC =================================
+REM
+IF EXIST resync (
+  ECHO "Updating resync..."
+  ECHO "Running: git pull https://github.com/marcilr/resync"
+  cd debian
+  git pull https://github.com/marcilr/resync
+  cd ..
+) ELSE (
+  ECHO "Cloning resync..."
+  git clone "https://github.com/marcilr/resync" resync
+)
+
+
+REM
 REM ================================= TEX ====================================
 REM ================================= TEX ====================================
 REM ================================= TEX ====================================
