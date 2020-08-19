@@ -61,3 +61,20 @@ IF EXIST debian (
   ECHO "Cloning debian..."
   git clone "https://github.com/marcilr/debian" debian
 )
+
+
+REM
+REM ================================ PARTED =================================
+REM ================================ PARTED =================================
+REM ================================ PARTED =================================
+REM
+IF EXIST parted (
+  ECHO "Updating parted..."
+  ECHO "Running: git pull https://github.com/marcilr/parted"
+  cd debian
+  git pull https://github.com/marcilr/parted
+  cd ..
+) ELSE (
+  ECHO "Cloning debian..."
+  git clone "https://github.com/marcilr/parted" parted
+)
