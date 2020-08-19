@@ -179,6 +179,23 @@ IF EXIST oracle (
 
 
 REM
+REM ================================== OS ====================================
+REM ================================== OS ====================================
+REM ================================== OS ====================================
+REM
+IF EXIST os (
+  ECHO "Updating oracle..."
+  ECHO "Running: git pull https://github.com/marcilr/os os"
+  cd oracle
+  git pull https://github.com/marcilr/os os
+  cd ..
+) ELSE (
+  ECHO "Cloning oracle..."
+  git clone "https://github.com/marcilr/os" os
+)
+
+
+REM
 REM ================================ PARTED =================================
 REM ================================ PARTED =================================
 REM ================================ PARTED =================================
