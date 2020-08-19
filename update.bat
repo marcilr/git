@@ -70,13 +70,14 @@ REM
 IF EXIST apache2 (
   ECHO "Updating apache2..."
   ECHO "Running: git pull https://github.com/marcilr/apache2"
-  cd apache
+  cd apache2
   git pull https://github.com/marcilr/apache2
   cd ..
 ) ELSE (
   ECHO "Cloning apache2..."
   git clone "https://github.com/marcilr/apache2" apache2
 )
+
 
 REM ================================= ANT ===================================
 REM ================================= ANT ===================================
@@ -85,12 +86,44 @@ REM
 IF EXIST ant (
   ECHO "Updating ant..."
   ECHO "Running: git pull https://github.com/marcilr/ant"
-  cd apache
+  cd ant
   git pull https://github.com/marcilr/ant
   cd ..
 ) ELSE (
   ECHO "Cloning ant..."
   git clone "https://github.com/marcilr/ant" ant
+)
+
+
+REM =============================== AUTOTOOLS ===============================
+REM =============================== AUTOTOOLS ===============================
+REM =============================== AUTOTOOLS ===============================
+REM
+IF EXIST autotools (
+  ECHO "Updating autotools..."
+  ECHO "Running: git pull https://github.com/marcilr/autotools"
+  cd autotools
+  git pull https://github.com/marcilr/autotools
+  cd ..
+) ELSE (
+  ECHO "Cloning autotools..."
+  git clone "https://github.com/marcilr/autotools" autotools
+)
+
+
+REM ================================= BASH ==================================
+REM ================================= BASH ==================================
+REM ================================= BASH ==================================
+REM
+IF EXIST bash (
+  ECHO "Updating bash..."
+  ECHO "Running: git pull https://github.com/marcilr/bash"
+  cd bash
+  git pull https://github.com/marcilr/bash
+  cd ..
+) ELSE (
+  ECHO "Cloning bash..."
+  git clone "https://github.com/marcilr/bash" bash
 )
 
 
@@ -119,7 +152,7 @@ REM
 IF EXIST httpd (
   ECHO "Updating httpd..."
   ECHO "Running: git pull https://github.com/marcilr/httpd"
-  cd debian
+  cd httpd
   git pull https://github.com/marcilr/httpd
   cd ..
 ) ELSE (
@@ -136,7 +169,7 @@ REM
 IF EXIST oracle (
   ECHO "Updating oracle..."
   ECHO "Running: git pull https://github.com/marcilr/tex-oracle oracle"
-  cd debian
+  cd oracle
   git pull https://github.com/marcilr/tex-oracle oracle
   cd ..
 ) ELSE (
@@ -153,11 +186,11 @@ REM
 IF EXIST parted (
   ECHO "Updating parted..."
   ECHO "Running: git pull https://github.com/marcilr/parted"
-  cd debian
+  cd parted
   git pull https://github.com/marcilr/parted
   cd ..
 ) ELSE (
-  ECHO "Cloning debian..."
+  ECHO "Cloning parted..."
   git clone "https://github.com/marcilr/parted" parted
 )
 
@@ -170,7 +203,7 @@ REM
 IF EXIST resync (
   ECHO "Updating resync..."
   ECHO "Running: git pull https://github.com/marcilr/resync"
-  cd debian
+  cd resync
   git pull https://github.com/marcilr/resync
   cd ..
 ) ELSE (
@@ -185,13 +218,13 @@ REM ================================= TEX ====================================
 REM ================================= TEX ====================================
 REM
 IF EXIST tex (
-  ECHO "Updating oracle..."
+  ECHO "Updating tex..."
   ECHO "Running: git pull https://github.com/marcilr/tex tex"
-  cd debian
+  cd tex
   git pull https://github.com/marcilr/tex tex
   cd ..
 ) ELSE (
-  ECHO "Cloning oracle..."
+  ECHO "Cloning tex..."
   git clone "https://github.com/marcilr/tex" tex
 )
 
@@ -204,7 +237,7 @@ REM
 IF EXIST virtualization (
   ECHO "Updating virtualization..."
   ECHO "Running: git pull https://github.com/marcilr/virtualization"
-  cd debian
+  cd virtualization
   git pull https://github.com/marcilr/virtualization
   cd ..
 ) ELSE (
@@ -221,7 +254,7 @@ REM
 IF EXIST vmware (
   ECHO "Updating vmware..."
   ECHO "Running: git pull https://github.com/marcilr/vmware"
-  cd debian
+  cd vmware
   git pull https://github.com/marcilr/vmware
   cd ..
 ) ELSE (
