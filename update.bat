@@ -78,3 +78,37 @@ IF EXIST parted (
   ECHO "Cloning debian..."
   git clone "https://github.com/marcilr/parted" parted
 )
+
+
+REM
+REM ============================= VIRTUALIZATION ============================
+REM ============================= VIRTUALIZATION ============================
+REM ============================= VIRTUALIZATION ============================
+REM
+IF EXIST virtualization (
+  ECHO "Updating virtualization..."
+  ECHO "Running: git pull https://github.com/marcilr/virtualization"
+  cd debian
+  git pull https://github.com/marcilr/virtualization
+  cd ..
+) ELSE (
+  ECHO "Cloning virtualization..."
+  git clone "https://github.com/marcilr/virtualization"  virtualization
+)
+
+
+REM
+REM ================================= VMWARE ================================
+REM ================================= VMWARE ================================
+REM ================================= VMWARE ================================
+REM
+IF EXIST vmware (
+  ECHO "Updating vmware..."
+  ECHO "Running: git pull https://github.com/marcilr/vmware"
+  cd debian
+  git pull https://github.com/marcilr/vmware
+  cd ..
+) ELSE (
+  ECHO "Cloning vmware..."
+  git clone "https://github.com/marcilr/vmware"  vmware
+)
