@@ -244,6 +244,24 @@ IF EXIST resync (
 
 
 REM
+REM ================================= SOA ====================================
+REM ================================= SOA ====================================
+REM ================================= SOA ====================================
+REM
+IF EXIST soa (
+  ECHO "Updating soa..."
+  ECHO "Running: git pull https://github.com/marcilr/soa soa"
+  cd soa
+  git pull https://github.com/marcilr/soa soa
+  cd ..
+) ELSE (
+  ECHO "Cloning soa..."
+  git clone "https://github.com/marcilr/soa" soa
+)
+
+
+
+REM
 REM ================================= TEX ====================================
 REM ================================= TEX ====================================
 REM ================================= TEX ====================================
