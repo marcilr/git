@@ -143,6 +143,21 @@ IF EXIST httpd (
   git clone "https://github.com/marcilr/httpd" httpd
 )
 
+REM
+REM ================================ LINKS ===================================
+REM ================================ LINKS ===================================
+REM ================================ LINKS ===================================
+IF EXIST links (
+  ECHO "Updating links..."
+  ECHO "Running: git pull https://github.com/marcilr/links links"
+  cd links
+  git pull https://github.com/marcilr/links links
+  cd ..
+) ELSE (
+  ECHO "Cloning links..."
+  git clone "https://github.com/marcilr/links" links
+)
+
 
 REM
 REM ================================ ORACLE ==================================
