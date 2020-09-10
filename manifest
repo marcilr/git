@@ -51,6 +51,7 @@ ssh://git@github.com/marcilr/dev.git                      dev
 ssh://git@github.com/marcilr/dewalt.git                   dewalt
 #ssh://dnratwtfs:22/tfs/Sandboxes/_git/dnr.git             dnr
 #ssh://dnratwtfsp:22/Sandboxes/_git/dnr.git                dnr
+ssh://git@github.com/marcilr/dot.git                      dot
 #ssh://git@github.com/marcilr/fanless.git                  fanless
 ssh://git@github.com/marcilr/finance.git                  finance
 ssh://git@github.com/marcilr/gnu.git                      gnu
