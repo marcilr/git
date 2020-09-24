@@ -62,6 +62,7 @@ ssh://git@github.com/marcilr/home-power.git               home-power
 ssh://git@github.com/marcilr/hosts.git                    hosts
 ssh://git@github.com/marcilr/hardware.git                 hardware
 #ssh://git@github.com/marcilr/irs.git                      irs
+ssh://git@github.com/marcilr/ivy.git                      ivy
 #ssh://git@github.com/marcilr/jobs.git                     jobs
 ssh://git@github.com/marcilr/lang.git                     lang
 ssh://git@github.com/marcilr/linode.git                   linode
